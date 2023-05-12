@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
 
 
  :root{  /* inciando a variavel*/
@@ -7,7 +8,7 @@
 *{ margin:0;
    padding: 0;
    border: 0;     
-   font-family: 'Roboto', sans-serif; 
+   font-family: 'Gideon Roman', cursive;
    color: rgb(19, 1, 1);
    text-decoration: none;
 }
@@ -29,7 +30,7 @@
     line-height: 30px;
     margin: 0 16px;
     text-decoration: none;
-    
+    font-family: 'Gideon Roman', cursive;
   }
   .links a:hover {
     color: var(--subcor);
@@ -79,4 +80,36 @@
   }
   #linksFooter a:hover {
     border:3px solid var(--subcor) ;
+  }
+
+
+  .cards{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    padding: 30px;
+  }
+  .card{
+    background-color: rgb(29, 8, 210);
+  }
+  .card_image img{
+     width: 100%;
+  }
+  .card_content,.card_info{
+    padding: 10px;
+  }
+
+  .card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card_price{
+    background-color: aqua;
+    filter: brightness(50%);
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
   }
