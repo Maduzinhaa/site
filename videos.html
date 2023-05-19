@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="style.css">
   
 <head>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Madu de Moura</title>
 </head>
 <body>
@@ -30,10 +30,22 @@
         </div>
         <div class="card">
             <div class="card_image">
-                <img src="https://img.youtube.com/vi/m9bOpeuvNwY/maxresdefault.jpg" alt="imagem da coraline">
+                <img src="https://img.youtube.com/vi/ekzHIouo8Q4/maxresdefault.jpg" alt="Bruno Mars ">
             </div>
             <div class="card_content">
-                <p>Trailer da Coraline, a estranha</p>
+                <p>Música de Bruno Mars</p>
+            </div>
+            <div class="card_info">
+                <p>4 min</p>
+                <p class="card_price">FREE</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_image">
+                <img src="https://img.youtube.com/vi/a1w9x5U88jU/maxresdefault.jpg" alt="imagem do trailer">
+            </div>
+            <div class="card_content">
+                <p>Trailer de Velozes e Furiosos 10</p>
             </div>
             <div class="card_info">
                 <p>3 min</p>
@@ -42,10 +54,10 @@
         </div>
         <div class="card">
             <div class="card_image">
-                <img src="https://img.youtube.com/vi/m9bOpeuvNwY/maxresdefault.jpg" alt="imagem da coraline">
+                <img src="https://img.youtube.com/vi/lHk0FHkxobQ/maxresdefault.jpg" alt="imagem da musica">
             </div>
             <div class="card_content">
-                <p>Trailer da Coraline, a estranha</p>
+                <p>Outro dia</p>
             </div>
             <div class="card_info">
                 <p>3 min</p>
@@ -54,34 +66,22 @@
         </div>
         <div class="card">
             <div class="card_image">
-                <img src="https://img.youtube.com/vi/m9bOpeuvNwY/maxresdefault.jpg" alt="imagem da coraline">
+                <img src="https://img.youtube.com/vi/zdR6htMAQOc/maxresdefault.jpg" alt="imagem do trailer">
             </div>
             <div class="card_content">
-                <p>Trailer da Coraline, a estranha</p>
+                <p>Trailer de onvergente</p>
             </div>
             <div class="card_info">
-                <p>3 min</p>
+                <p>1 min</p>
                 <p class="card_price">FREE</p>
             </div>
         </div>
         <div class="card">
             <div class="card_image">
-                <img src="https://img.youtube.com/vi/m9bOpeuvNwY/maxresdefault.jpg" alt="imagem da coraline">
+                <img src="https://img.youtube.com/vi/z1n04Duc1a8/0.jpg" alt="imagem da música">
             </div>
             <div class="card_content">
-                <p>Trailer da Coraline, a estranha</p>
-            </div>
-            <div class="card_info">
-                <p>3 min</p>
-                <p class="card_price">FREE</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card_image">
-                <img src="https://img.youtube.com/vi/m9bOpeuvNwY/maxresdefault.jpg" alt="imagem da coraline">
-            </div>
-            <div class="card_content">
-                <p>Trailer da Coraline, a estranha</p>
+                <p>Eu me perdi em mim</p>
             </div>
             <div class="card_info">
                 <p>3 min</p>
@@ -91,11 +91,33 @@
     </section>
 
 
-    <div  id ="linksFooter"class="links">
+
+<div  id ="linksFooter"class="links">
         <a href="https://www.instagram.com/madum.f" target="_blank">Instagram</a>
         <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
         <a href="https://www.github.com/" target="_blank" >Github</a>
        
     </div>
+    <div class="modal_overlay">
+        <div class="modal">
+            <a class="close_modal">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </a>
+            <div class="modal_content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m9bOpeuvNwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+    </div>
+    <div class="modal_overlay active">
+        <div class="modal">
+            <a class="close_modal">
+             <span class="material-symbols-outlined"> close</span>
+
+            </a>
+        </div>
+    </div>
+</div>
+<script src="cripts.js"></script>
 </body>
 </html>
